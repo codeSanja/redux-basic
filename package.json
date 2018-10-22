@@ -1,25 +1,23 @@
 {
-  "name": "redux-basic",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
-  },
+  "name": "ski-day-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "challenge-a": "babel-node ./src/challenges/FETCH_RESORT_NAMES.js",
+    "challenge-b": "babel-node ./src/challenges/CANCEL_FETCHING.js",
+    "challenge-c": "babel-node ./src/challenges/CLEAR_SUGGESTIONS.js",
+    "challenge-d": "babel-node ./src/challenges/CHANGE_SUGGESTIONS.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.16.0",
+    "expect": "^1.20.2"
+  }
 }
