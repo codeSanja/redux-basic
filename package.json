@@ -4,20 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "challenge-a": "babel-node ./src/challenges/FETCH_RESORT_NAMES.js",
-    "challenge-b": "babel-node ./src/challenges/CANCEL_FETCHING.js",
-    "challenge-c": "babel-node ./src/challenges/CLEAR_SUGGESTIONS.js",
-    "challenge-d": "babel-node ./src/challenges/CHANGE_SUGGESTIONS.js"
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
     "babel-preset-stage-0": "^6.16.0",
-    "expect": "^1.20.2"
+    "expect": "^1.20.2",
+    "json-loader": "^0.5.7",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
